@@ -1,0 +1,31 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.content {
+    height: 2000px; /* For demonstration purposes, to create a scrollable page */
+    padding: 20px;
+}
+
+.scrollToTopBtn {
+    display: none; /* Initially hidden */
+    position: fixed;
+    top: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 99;
+    border: none;
+    outline: none;
+    background-color: #004f59;
+    color: white;
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 10px;
+    font-size: 18px;
+}
+
+.scrollToTopBtn:hover {
+    background-color: #555;
+}
